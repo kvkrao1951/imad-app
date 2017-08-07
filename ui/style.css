@@ -1,11 +1,19 @@
 body {
     font-family: sans-serif;
     background-color: lightgrey;
-    margin-top: 75px;
+    margin: 20px;
 }
 
 .center {
     text-align: center;
+}
+
+.justify {
+	text-align: justify;
+}
+
+.right {
+    text-align: right;
 }
 
 .text-big {
@@ -18,5 +26,15 @@ body {
 
 .img-medium {
     height: 200px;
+}
+
+h1, h2, h3 {
+	color: forestgreen;
+}
+
+.container {
+	border: 2px solid blue;
+	border-radius: 10px;
+	background-color: antiquewhite;
 }
 
