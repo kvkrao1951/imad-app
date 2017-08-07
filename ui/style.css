@@ -33,7 +33,7 @@ h1, h2, h3 {
 }
 
 .container {
-	border: 2px dotted blue;
+	border: 2px solid blue;
 	border-radius: 10px;
 	background-color: antiquewhite;
 }
