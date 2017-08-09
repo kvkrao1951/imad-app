@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
     background-color: lightgrey;
-    margin: 20px;
+    margin: 5px;
 }
 
 .center {
@@ -28,13 +28,42 @@ body {
     height: 200px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
 	color: forestgreen;
 }
 
 .container {
 	border: 2px solid blue;
 	border-radius: 10px;
-	background-color: antiquewhite;
+	background-color: aliceblue;
+	margin-bottom: 5px;
 }
 
+.imgTopRight {
+	vertical-align: top;
+	float: right;
+	margin: 5px;
+}
+
+li {
+	margin-bottom: 1em;
+}
+
+table {
+	width: 100%;
+	margin: 5px;
+	padding: 5px;
+}
+
+thead {
+	font-weight: bold;
+	background-color: bisque;
+}
+
+tr, td {
+	border: 1px solid black;
+}
+
+td {
+	vertical-align: top;
+}
