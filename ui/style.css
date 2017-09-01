@@ -20,6 +20,10 @@ body {
     font-size: 300%;
 }
 
+.text-medium {
+    font-size: 150%;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -45,6 +49,12 @@ h1, h2, h3, h4, h5 {
 	margin: 5px;
 }
 
+.imgTopLeft {
+	vertical-align: top;
+	float: left;
+	margin: 5px;
+}
+
 li {
 	margin-bottom: 1em;
 }
@@ -66,4 +76,7 @@ tr, td {
 
 td {
 	vertical-align: top;
+}
+.oFlow {
+	overflow: hidden;
 }
